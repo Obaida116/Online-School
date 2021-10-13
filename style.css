@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(images/class-room.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbar Starts here */
+.my-navbar{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4% 10%;
+}
+.navbar-icon{
+    color: white;
+}
+.nav-link{
+    color: white;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    transform: scale(1.1);
+    color: white;
+}
+/* Navbar Ends here */
+/* Banner Starts Here */
+.banner-container{
+    height: 100vh;
+}
+.banner-content h1{
+    font-family: 'Handlee', cursive;
+    background-color: rgba(100, 148, 237, 0.534);
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Banner Ends Here */
+#card-section, #contact{
+    background-color: rgb(245, 227, 227);
+    padding: 4% 10%;
+}
+.icon-style{
+    background-color: purple;
+    color: white;
+    padding:15px;
+    margin-bottom: 15px;
+}
+.col-content{
+    border: 1px solid purple;
+    transition:0.4s;
+}
+.col-content:hover{
+    box-shadow: 5px 5px 10px rgb(15, 2, 15);
+    transform: scale(1.1);
+}
+/* About Me Section Starts Here */
+#about-Me, #feedback{
+    background-color: rgb(206, 206, 192);
+    padding: 4% 10%;
+}
+.section-title{
+    Padding-top: 40px;
+}
+.hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+}
+.single-AboutMe p{
+    font-weight: light;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+.single-AboutMe span{
+    font-weight: 300;
+    color: black;
+    text-decoration: underline;
+}
+.single-Achieve span{
+    font-weight: 700;
+}
+.star i{
+    width: 10px;
+    margin: 3px;
+}
+/* About Me Section Ends Here */
+
+/* Skills Section Starts Here */
+.single-Achieve p{
+    font-weight: light;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+/* Skills Section Ends Here */
+
+
+/* Tutorials Section Starts Here */
+#tutorials{
+    padding: 4% 10%;
+    background-color: rgb(241, 227, 227);
+}
+.tutorial-card{
+    border: 1px solid blueviolet;
+    transition: 0.4s;
+}
+.tutorial-card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px brown;
+}
+/* Tutorials Section Ends Here */
+
+/* Feedback Section Starts Here */
+.carousel-item{
+    padding: 150px;
+}
+.carousel-item img{
+    width: 100px;
+}
+
+/* Feedback Section Ends Here */
+
